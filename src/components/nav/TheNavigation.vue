@@ -3,6 +3,9 @@
     <nav>
       <ul>
         <li>
+          <!-- it is special anchor tag will actually not load a diff pageand reload the entire app and loose the current state-->
+         <!-- most imp configuration here is the "to" prop . it takes various diff values and simple way of using it to provide a string to it which hold a path
+         you wanna go to-->
          <router-link to="/team">Teams</router-link>
         </li>
         <li>
@@ -52,7 +55,7 @@ a {
 
 a:hover,
 a:active,
-a.router-link-active {
+a.active { 
   color: #f1a80a;
   border-color: #f1a80a;
   background-color: #1a037e;

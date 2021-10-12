@@ -9,7 +9,8 @@ const router = createRouter({
     routes:[//here we register all the routes,the different paths,the different URL's //array full of routes
         { path:'/team', component:TeamsList },
         { path:'/users', component:UsersList },
-    ]
+    ],
+    linkActiveClass:'active'
 });
 
 const app = createApp(App)
